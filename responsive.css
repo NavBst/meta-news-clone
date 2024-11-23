@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+
+    .nav,
+    .search {
+        display: none;
+    }
+
+    .logo {
+        margin: auto;
+        height: 100%;
+        padding: 18px 0px;
+    }
+}
