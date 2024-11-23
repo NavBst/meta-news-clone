@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -7,7 +7,8 @@
     /* font-weight: 100; */
     /* font-style: italic;} */
 }
-.head{
+
+.head {
     width: 100%;
     display: flex;
     align-items: center;
@@ -16,7 +17,7 @@
     position: relative;
 }
 
-.logo{
+.logo {
     width: 8%;
     /* height: 25px; */
     display: flex;
@@ -25,17 +26,17 @@
     margin-left: 40px;
 }
 
-.logo img{
+.logo img {
     width: 35%;
     height: 60%;
 }
 
 .logo p {
-      font-size: 22px;
-      font-weight: 500;
-    }
+    font-size: 22px;
+    font-weight: 500;
+}
 
-.nav{
+.nav {
     width: 85%;
     display: flex;
     justify-content: space-between;
@@ -52,25 +53,25 @@
 
 
 
-.nav>ul>li{
+.nav>ul>li {
     padding: 20px 0px;
 }
 
-.nav>ul>li>a{
+.nav>ul>li>a {
     color: black;
-    font-size:16px;
+    font-size: 16px;
     position: relative;
 }
 
-.nav>ul>li>a>i{
+.nav>ul>li>a>i {
     transition: 0.5s;
 }
 
-.nav>ul>li>:hover i{
+.nav>ul>li>:hover i {
     transform: rotate(180deg);
 }
 
-.nav>ul>li>a>span{
+.nav>ul>li>a>span {
     width: 0%;
     height: 2px;
     background-color: blue;
@@ -80,17 +81,17 @@
     transition: 0.5s;
 }
 
-.nav>ul>li>a:hover span{
+.nav>ul>li>a:hover span {
     left: 0%;
     width: 100%;
 }
 
-.mega-menu{
+.mega-menu {
     width: calc(100% - 300px);
     top: 100%;
     left: 0px;
     position: absolute;
-    background:white;
+    background: white;
     transform: scaleY(0);
     transition: 0.3s;
     transform-origin: top;
@@ -100,45 +101,45 @@
     box-shadow: 0px 1px 3px 0px lightgrey;
 }
 
-.mega-menu li{
+.mega-menu li {
     display: flex;
     gap: 150px;
 }
 
 
-.vr-img{
+.vr-img {
     width: 200px;
     height: 100px;
     margin: 10px 0px;
 }
 
-.vr-img img{
+.vr-img img {
     width: 100%;
     height: 100%;
 }
 
-.nav>ul>li:hover .mega-menu{
+.nav>ul>li:hover .mega-menu {
     transform: scaleY(1);
     opacity: 1;
 }
 
 
-.inner-menu{
+.inner-menu {
     margin-top: 20px;
     /* display: flex; */
 }
 
-.inner-menu li h3{
+.inner-menu li h3 {
     font-size: 18px;
     font-weight: 600;
     color: #67788a;
 }
 
-.inner-menu li{
+.inner-menu li {
     margin: 15px 0px;
 }
 
-.inner-menu li a{
+.inner-menu li a {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.5;
@@ -146,7 +147,7 @@
     position: relative;
 }
 
-.inner-menu>li>a>span{
+.inner-menu>li>a>span {
     width: 0%;
     height: 1px;
     background-color: blue;
@@ -157,7 +158,7 @@
 }
 
 
-.inner-menu>li>a:hover span{
+.inner-menu>li>a:hover span {
     left: 0%;
     width: 100%;
 }
@@ -166,17 +167,18 @@
 
 /* ********************************work not done***************************** */
 
-.head-support a{
+.head-support a {
     font-size: 16px;
     color: black;
     padding: 13px 0px;
 }
-.search{
+
+.search {
     width: 10%;
     padding: 10px 0px;
 }
 
-.search i{
+.search i {
     height: 30px;
     margin-left: 10px;
     padding-left: 10px;
@@ -184,49 +186,50 @@
     border-left: 0.1px solid lightgrey;
 }
 
-.first-section{
+.first-section {
     width: 100%;
 }
 
-.inner{
-    width: calc(1150px - 7%);
+.inner {
+    max-width: calc(1140px - 7%);
     margin: auto;
     /* padding-left: 5%;
     padding-right: 2%; */
 }
 
-.first-section-head h3{
+.first-section-head h3 {
     font-size: 45px;
     font-weight: 500;
     color: rgb(102, 102, 102);
     margin: 40px 0px;
     letter-spacing: 2.3px;
 }
-.stories-head{
+
+.stories-head {
     color: rgb(102, 102, 102);
     padding-bottom: 10px;
     text-transform: uppercase;
 }
 
-.stories-head h3{
+.stories-head h3 {
     font-weight: 600;
     letter-spacing: 3px;
 }
 
-.stories-content{
+.stories-content {
     width: 100%;
     display: flex;
 }
 
-.stories-left{
+.stories-left {
     width: 50%;
 }
 
-.gif-img{
+.gif-img {
     width: 527px;
 }
 
-.meta-head{
+.meta-head {
     width: 50px;
     padding-bottom: 3px;
     border-bottom: 2px solid blue;
@@ -236,73 +239,73 @@
     /* display: block; */
 }
 
-.stories-left h3{
+.stories-left h3 {
     margin-top: 15px;
     font-weight: 500;
     font-size: 35px;
     letter-spacing: 2px;
 }
 
-.stories-left:hover{
+.stories-left:hover {
     color: rgb(72, 72, 73);
- }
+}
 
-.stories-content-p p{
+.stories-content-p p {
     font-size: 16px;
     word-spacing: 2px;
     color: rgb(102, 102, 102);
     width: 90%;
 }
 
-.date{
+.date {
     margin-top: 10px;
     font-size: 13px;
     color: rgb(54, 54, 54);
 }
 
-.stories-right{
+.stories-right {
     width: 48%;
 }
 
-.stories-ri-row{
+.stories-ri-row {
     display: flex;
     gap: 20px;
 }
 
-.stories-ri-content{
+.stories-ri-content {
     width: 50%;
     margin-bottom: 50px;
 }
 
-.stories-ri-content a h3{
+.stories-ri-content a h3 {
     color: black;
     font-size: 24px;
     font-weight: 400;
     padding: 6px 0px;
 }
 
-.stories-ri-content a h3:hover{
+.stories-ri-content a h3:hover {
     color: rgb(72, 72, 73);
- }
+}
 
-.stories-ri-content p{
+.stories-ri-content p {
     font-size: 16px;
     color: rgb(102, 102, 102);
 }
 
-.stories-ri-img{
+.stories-ri-img {
     flex-basis: 48%;
     height: 175px;
     overflow: hidden;
 }
 
-.stories-ri-img div{
+.stories-ri-img div {
     width: 100%;
     height: 100%;
     transition: 0.5s;
 }
 
-.stories-ri-img div img{
+.stories-ri-img div img {
     width: 100%;
     height: 100%;
     /* transition: 3s; */
@@ -310,17 +313,17 @@
 
 
 
-.stories-ri-img:hover div{
+.stories-ri-img:hover div {
     transform: scale(1.02);
 }
 
 
-.second-section{
+.second-section {
     width: 100%;
     display: flex;
 }
 
-.second-sect-left{
+.second-sect-left {
     flex-basis: 45%;
     padding-left: 90px;
     background: rgb(241, 242, 244);
@@ -328,7 +331,7 @@
 }
 
 
-.second-sect-left h3{
+.second-sect-left h3 {
     width: 85%;
     font-size: 36px;
     font-weight: 400;
@@ -338,11 +341,11 @@
     margin: 10px 0px;
 }
 
-.second-sect-left h3:hover{
-   color: rgb(72, 72, 73);
+.second-sect-left h3:hover {
+    color: rgb(72, 72, 73);
 }
 
-.second-sect-left p{
+.second-sect-left p {
     width: 85%;
     font-size: 16px;
     letter-spacing: 1.3px;
@@ -350,62 +353,63 @@
     color: rgb(102, 102, 102);
 }
 
-.second-sect-ri{
+.second-sect-ri {
     flex-basis: 50%;
 }
 
-.second-sect-ri img{
+.second-sect-ri img {
     width: 100%;
     height: 100%;
 }
 
 
-.third-section{
+.third-section {
     width: 100%;
 }
 
-.third-section>.inner{
+.third-section>.inner {
+    width: 100%;
     display: flex;
     padding: 40px 0px;
     justify-content: space-between;
 }
 
-.third-sect-left{
+.third-sect-left {
     flex-basis: 19%;
     /* background: yellow; */
     padding-right: 1%;
 }
 
-.recent-news{
+.recent-news {
     width: 100%;
     margin-bottom: 40px;
 }
 
-.recent-news h3{
-    font-size:14px;
+.recent-news h3 {
+    font-size: 14px;
     color: black;
     letter-spacing: 1.2px;
     font-weight: 500;
 }
 
-.recent-news p a{
+.recent-news p a {
     font-size: 14px;
     color: black;
     letter-spacing: 1.2px;
 }
 
 
-.recent-news p a:hover{
+.recent-news p a:hover {
     font-weight: 500;
 }
 
-.catogries h3{
+.catogries h3 {
     font-size: 18px;
     font-weight: 600;
     color: rgb(103, 123, 140);
 }
 
-.catogries ul li a{
+.catogries ul li a {
     display: block;
     font-size: 13px;
     letter-spacing: 1.2px;
@@ -413,36 +417,37 @@
     line-height: 18px;
 }
 
-.catogries ul li{
+.catogries ul li {
     margin: 10px 0px;
 }
 
-.catogries ul{
+.catogries ul {
+    max-width: 100%;
     margin-bottom: 20px;
 }
 
-.catogries ul li a:hover{
+.catogries ul li a:hover {
     font-weight: 500;
 }
 
 
-.third-sect-ri{
+.third-sect-ri {
     flex-basis: 80%;
 }
 
 
-.third-sect-ri ul li{
+.third-sect-ri ul li {
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
 }
 
-.third-sect-content{
-    width: 60%;
+.third-sect-content {
+    flex-basis: 60%;
 }
 
 
-.third-sect-content h3{
+.third-sect-content h3 {
     color: black;
     font-size: 24px;
     margin-top: 15px;
@@ -451,66 +456,69 @@
     line-height: 30px;
 }
 
-.third-sect-content a h3:hover{
+.third-sect-content a h3:hover {
     color: rgb(72, 72, 73);
 }
 
-.third-sect-content p{
+.third-sect-content p {
     font-size: 16px;
     color: rgb(102, 102, 102);
 }
 
 
-.third-sect-img{
-    width: 37.5%;
+.third-sect-img {
+    flex-basis: 37.5%;
     height: 220px;
     overflow: hidden;
 }
 
-.third-sect-img img{
+.third-sect-img img {
     width: 100%;
     height: 100%;
     transition: 0.3s;
 }
 
-.third-sect-img:hover img{
+.third-sect-img:hover img {
     transform: scale(1.05);
 }
 
-#messenger, #whatsApp{
+#messenger,
+#whatsApp {
     border: none;
 
 }
 
-.meta-head span{
-    display:block;
+.meta-head span {
+    display: block;
     width: 115px;
     height: 2px;
     margin-top: 5px;
-    background: linear-gradient(90deg,rgb(109, 83, 255),rgb(173, 56, 238),rgb(255, 112, 97));
+    background: linear-gradient(90deg, rgb(109, 83, 255), rgb(173, 56, 238), rgb(255, 112, 97));
 }
 
-#whatsApp span{
-    display:block;
+#whatsApp span {
+    display: block;
     width: 110px;
     height: 2px;
     margin-top: 5px;
     background: rgb(38, 211, 103);
 }
 
-.fourth-section{
+.fourth-section {
     width: 100%;
     background: rgb(241, 242, 244);
     padding: 30px 0px;
 }
 
-.fourth-section .inner{
-    display: flex;  
+.fourth-section .inner {
+    width: 100%;
+    padding: 12px 8%;
+    display: flex;
     align-items: center;
-    gap: 200px;
 }
 
-.links-head{
+.links-head {
+    width: 30%;
     font-size: 22px;
     font-weight: 500;
     letter-spacing: 1.2px;
@@ -518,32 +526,33 @@
 }
 
 .links {
+    flex-basis: 70%;
     display: flex;
     align-items: center;
-    gap: 180px;
+    justify-content: space-between;
 }
 
-.links div a{
+.links div a {
     font-size: 14px;
     color: black;
 }
 
-.links div a:hover{
+.links div a:hover {
     color: rgb(113, 113, 114);
 }
 
-.footer{
+.footer {
     width: 100%;
     padding-top: 30px;
     /* background: rgb(241, 244, 247); */
 }
 
-.footer .inner{
+.footer .inner {
     display: flex;
     gap: 130px;
 }
 
-.footer-logo{
+.footer-logo {
     display: flex;
     width: 50%;
     height: 50px;
@@ -552,50 +561,51 @@
     gap: 10px;
 }
 
-.footer-logo>p{
+.footer-logo>p {
     font-size: 25px;
     font-weight: 500;
 }
 
-.footer-logo img{
+.footer-logo img {
     width: 50%;
     height: 60%;
 }
 
-.footer-c{
+.footer-c {
     width: 33%;
     flex-grow: 1;
 }
 
-.footer-c>p{
+.footer-c>p {
     font-size: 14px;
     margin-top: 20px;
 }
 
-.footer-logos{
+.footer-logos {
     padding: 4px 0px;
     display: flex;
 }
 
-.footer-logos i{
+.footer-logos i {
     font-size: 22px;
     border-radius: 50%;
     margin-right: 20px;
 }
 
 
-.footer-right{
+.footer-right {
     display: flex;
     justify-content: space-between;
     gap: 120px;
 }
-.footer-c h3{
+
+.footer-c h3 {
     font-size: 16px;
     color: rgb(52, 72, 84);
     font-weight: 600;
 }
 
-.footer-c ul li a{
+.footer-c ul li a {
     color: black;
     font-size: 12px;
 }
@@ -604,11 +614,11 @@
     margin-bottom: 30px;
 }
 
-.footer-c ul li a:hover{
+.footer-c ul li a:hover {
     color: rgb(96, 97, 98);
 }
 
-.footer-end{
+.footer-end {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -616,30 +626,31 @@
     padding: 20px 0px;
 }
 
-.end-left{
+.end-left {
     width: 60%;
 }
 
-.end-left ul{
+.end-left ul {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.end-left ul li, .end-left ul li a{
+.end-left ul li,
+.end-left ul li a {
     font-size: 12px;
     color: black;
 }
 
-.end-right{
+.end-right {
     font-size: 12px;
     color: black;
 }
 
-.end-right select{
+.end-right select {
     border: none;
 }
 
-.end-left ul li a:hover{
+.end-left ul li a:hover {
     color: rgb(96, 97, 98);
 }
