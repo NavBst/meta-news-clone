@@ -223,6 +223,7 @@
 .stories-content {
     width: 100%;
     display: flex;
+    gap:40px;
 }
 
 .stories-left {
