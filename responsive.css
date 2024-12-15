@@ -31,9 +31,9 @@
         flex-basis: 100%;
     }
 
-    .fourth-section .inner {
+    /* .fourth-section .inner {
         width: 100%;
-    }
+    } */
 
     .links-head {
         width: 25%;
@@ -78,4 +78,9 @@
         width: 100%;
         text-align: center;
     }
+
+    .third-sect-ri ul li {
+        flex-direction: column-reverse;
+    }
 }
+
