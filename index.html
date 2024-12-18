@@ -14,15 +14,42 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <script>
+        let state = false;
+        function menuShow(){
+          let nav =  document.querySelector(".nav")
+          let window = document.querySelector("#blur");
+          if(!state){
+            nav.style.left = "0%";
+            state = true;
+            window.style.backgroundColor = "rgba(0,0,0,0.5)";
+            document.body.style.overflow = "hidden";
+          }
+          else{
+            nav.style.left= "-100%";
+            state = false;
+            window.style.backgroundColor = "rgba(0,0,0,0)";
+            document.body.style.overflow = "auto";
+
+          }
+           console.log(state) ;
+        }
+    </script>
 </head>
 
 <body>
-
+    <div id="blur"></div>
     <div class="head">
         <div class="logo">
             <img src="images/logo.png" alt="" />
             <p>Meta</p>
         </div>
+        <div class="burger" onclick="menuShow()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
         <div class="nav">
             <ul>
                 <li>
@@ -721,6 +748,7 @@
             </div>
         </div>
     </div>
+
 
 </body>
 
