@@ -96,12 +96,15 @@
         flex-direction: column-reverse;
     }
 
+/* ****************************************************Nav-bar********************************************* */
+
     .nav {
         background-color: white;
         height: 100vh;
         width: 50%;
         box-shadow: 12px 0px 16px 5px rgba(0, 0, 0, 0.1);
         z-index: 99;
+        padding-top: 100px;
     }
 
     .nav>ul {
@@ -111,6 +114,22 @@
         padding-left: 12px;
     }
 
+    .mega-menu{
+        position: static;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .mega-menu li{
+        display: block;
+    }
+
+    .nav>ul>li>a:hover span {
+        width: auto;
+    }
+
+
+    /* ----------------------------------------------------- */
     .head-support {
         display: none;
     }
